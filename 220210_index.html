@@ -1,0 +1,68 @@
+<!DOCTYPE <html>
+<html>
+
+<head>
+    <script>
+        function JH() {
+            console.log("함수작동")
+        }
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mind Knock</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;;
+        }
+        #container {
+            width: 400px;
+            background-color:red;
+            /* #FFEEEE; */
+            margin: 0 auto;
+            height: 1vh;
+        }
+
+        #image {
+            width: 400px;
+        }
+
+        #img {
+            position: relative;
+            width: 400px;
+            height: 100vh;
+            margin: 0 auto;
+        }
+
+        #img2 {
+            position: absolute;
+           display: flex;
+           width: 400px;
+           justify-content: center;
+           align-items: center;
+           bottom: 10px;
+           height: 400px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <a href="220210_main.html">
+            <div id="image">
+                <img id="img" src="img/start.png">
+                </img>
+                <!-- img를 눌렀을때 함수가 작동하도록 설정 -->
+                <!-- <img onclick="JH()" id="imgsub1" src="img/recovery.PNG"> -->
+                <div id="img2">
+                    <img id="imgsub1" src="img/recovery.PNG">
+                </div>
+                </img>
+            </div>
+        </a>
+    </div>
+
+</body>
+
+</html>
